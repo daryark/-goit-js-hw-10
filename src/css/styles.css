@@ -18,3 +18,16 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+span {
+  font-weight: bold;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 30px;
+}
