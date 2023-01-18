@@ -3,7 +3,6 @@ import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix';
 
 import { fetchCountries } from './js/fetch-countries';
-// import { checkResults } from './js/check-results';
 
 const DEBOUNCE_DELAY = 300;
 
