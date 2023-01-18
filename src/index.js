@@ -19,6 +19,8 @@ function onInput(e) {
   fetchCountries(name).then(checkResults).catch(errMessage);
 }
 
+//
+//
 function checkResults(res) {
   if (res.length > 10) {
     clearContent();
