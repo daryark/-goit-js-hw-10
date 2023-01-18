@@ -16,6 +16,11 @@ function onInput(e) {
   clearContent();
   const name = e.target.value.trim();
 
+  if (!name) {
+    console.log('no fetch');
+    return;
+  }
+
   fetchCountries(name).then(checkResults).catch(errMessage);
 }
 
